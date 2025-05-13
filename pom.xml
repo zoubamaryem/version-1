@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from Repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>Version-1</artifactId>
+	<artifactId>bookapi</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Version-1</name>
 	<description>Demo project for Spring Boot</description>
@@ -68,7 +68,9 @@
 							<artifactId>lombok</artifactId>
 						</path>
 					</annotationProcessorPaths>
-				</configuration>
+                    <source>11</source>
+                    <target>11</target>
+                </configuration>
 			</plugin>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
